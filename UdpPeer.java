@@ -6,6 +6,10 @@ import java.util.Scanner;
 
 public class UdpPeer {
 
+    //When running this main, run 2 at the same time
+    //Configure one so that one is in port 5001 and the other in port 5002
+    //input "127.0.0.1 5002 <message>" in the one in port 5001
+    //then you should see the message in the other
     private static volatile boolean verbose = true;
 
     public static void main(String[] args) {
